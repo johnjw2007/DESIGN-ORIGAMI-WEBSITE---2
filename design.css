@@ -1,0 +1,95 @@
+body{
+    background-image: url(https://get.wallhere.com/photo/paper-crane-close-up-origami-background-photo-1086509.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.text{
+    text-align: center;
+    font-size: 25px;
+    margin: 0px;
+}
+
+a{
+    text-decoration: none
+}
+.image{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(17, 1, 1);
+    margin: 10px;
+    color: rgb(12, 1, 1);
+    width: 214.542px;
+    background: rgba(0, 0, 0, 0.5);
+    min-height: 350px;
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-group {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.title{
+    text-align: center;
+    color: rgb(10, 3, 3);
+    font-size: 50px;
+    margin: 0px;
+}
+.sub-title{
+    text-align: center;
+    color:wrgb(5, 1, 1)
+}
+.about{
+    font-size: 17px;
+    padding: 4px;
+    text-align: justify;
+    color: rgb(5, 3, 3);
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    padding-right: 10px;
+}
+a:link{
+    color: rgb(240, 165, 27);
+}
+a:visited{
+    color: rgb(236, 27, 27);
+}
+.image{
+    position: relative;
+}
+.image p {
+    position : absolute;
+    top : 50%;
+    left : 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+
+}
+
+.image:hover p {
+    opacity: 100;
+}
+
+.image:hover img{
+    opacity : 0.5
+}
+
+.image:hover head{
+    opacity: 0;
+}
+.menu{
+    margin: 30px;
+    border: solid;
+    padding: 30px;
+    position : absolute;
+    bottom: 75%;
+    left : 90%;
+    transform: translate(-50%,-50%);
+}
